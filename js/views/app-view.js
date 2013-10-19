@@ -57,13 +57,13 @@ var app = app || {};
 				// 	remaining: remaining
 				// }));
 
-				this.$('#filters li a')
-					.removeClass('selected')
-					.filter('[href="#/' + (app.TodoFilter || '') + '"]')
-					.addClass('selected');
+				// this.$('#filters li a')
+				// 	.removeClass('selected')
+				// 	.filter('[href="#/' + (app.TodoFilter || '') + '"]')
+				// 	.addClass('selected');
 			} else {
 				this.$main.hide();
-				this.$footer.hide();
+				// this.$footer.hide();
 			}
 
 			this.allCheckbox.checked = !remaining;
