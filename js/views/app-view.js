@@ -50,20 +50,8 @@ var app = app || {};
 
 			if (app.todos.length) {
 				this.$main.show();
-				// this.$footer.show();
-
-				// this.$footer.html(this.statsTemplate({
-				// 	completed: completed,
-				// 	remaining: remaining
-				// }));
-
-				// this.$('#filters li a')
-				// 	.removeClass('selected')
-				// 	.filter('[href="#/' + (app.TodoFilter || '') + '"]')
-				// 	.addClass('selected');
 			} else {
 				this.$main.hide();
-				// this.$footer.hide();
 			}
 
 			this.allCheckbox.checked = !remaining;
